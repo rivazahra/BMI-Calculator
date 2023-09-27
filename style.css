@@ -10,6 +10,7 @@ font-family: 'Poppins', sans-serif; */
 
 
 body{
+    background-color: rgb(151, 202, 202);
     display: flex;
     flex-direction: column;
     /* justify-content: ; */
@@ -43,20 +44,40 @@ body{
 #main input{
     width: 450px;
     padding: 5px;
-    border: solid 2px rgb(176, 175, 175);
+    height: 35px;
+    border: 2px solid rgb(203, 201, 201);
     /* border: none; */
     border-radius: 5px;
 }
 #main label{
+    color: rgb(34, 20, 95);
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    /* margin: 20px; */
+    font-weight: 600;
 }
 
 #check{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     text-align: center;
-    width: 130px;
-    /* height: 100px; */
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    color: rgb(252, 252, 255);
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: rgb(20, 66, 68);
+    font-style: bold;
+    border: solid 2px rgb(138, 142, 155);
+    width: 150px;
     padding: 7px;
-margin-top: 20px;
+    margin-top: 20px;
+}
+
+#hasil{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+
 }
